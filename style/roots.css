@@ -1,0 +1,12 @@
+:root {
+    --white: #E7EFFF;
+    --grey: #0f0f0f49;
+    --hover: #8865655e;
+    --placeholder: #a8717d;
+    --label-clr: #c9808f;
+    --bg-gradient: linear-gradient(to right top, #051937, #1b132e, #230e24, #260b1a, #25090f);
+    --h1: 2.5em;
+    --h2: 2em;
+    --p: 1.25em;
+    --input-fnt: 1em;
+}

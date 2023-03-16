@@ -1,0 +1,102 @@
+@import url(roots.css);
+
+#form {
+    /* border: solid green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100% - 15%);
+    
+}
+
+
+#dollar-container, 
+#colon-container {
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.5%;
+}
+
+
+
+
+
+/*---------------- LABELS -------------------*/
+
+
+
+label[for="dollar-input"],
+label[for="colon-input"] {
+    padding-right: 1.5%;
+    width: max-content;
+    height: 100%;
+    font-size: var(--p);
+    color: var(--label-clr);
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+/*--------------------- INPUT --------------*/
+
+#dollar-input, 
+#colon-input {
+    width: 20em;
+    padding: 4% 2%;
+    background-color: transparent;
+    border: 1.5px solid var(--placeholder);
+    border-radius: 1em;
+    font-size: var(--input-fnt);
+    font-weight: bold;
+    color: var(--white);
+
+    transition: ease .6s;
+    box-shadow: 5px 7px 3px #13131371;
+}
+
+#dollar-input:focus, 
+#colon-input:focus {
+    outline: none;
+    background-color: var(--grey);
+}
+
+#dollar-input:hover, 
+#colon-input:hover {
+    background-color: var(--hover);
+    border-color: var(--white);
+
+}
+
+
+#dollar-input::placeholder, 
+#colon-input::placeholder {
+    color: var(--placeholder);
+    letter-spacing: .06em;
+}
+
+
+button[type="reset"] {
+    width: 6em;
+    height: 3em;
+    border-radius: .5em;
+    border: none;
+    background-color: #c72749;
+    color: var(--white);
+    font-size: var(--input-fnt);
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: .06em;
+    cursor: pointer;
+    
+    transition: ease .5s;
+}
+
+button[type="reset"]:hover {
+    filter: drop-shadow(0px 0px 4px #d4234a);
+    transform: scale(1.05);
+}
+
