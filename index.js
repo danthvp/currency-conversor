@@ -1,6 +1,6 @@
 const colonesInput = document.getElementById('colon-input');
 const dollarsInput = document.getElementById('dollar-input');
-const tipoCambio = 542.87;
+const tipoCambio = 540.87;
 
 
 
