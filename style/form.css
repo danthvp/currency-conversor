@@ -126,13 +126,14 @@ button[type="reset"]:hover {
 
     #dollar-input, 
     #colon-input {
-        font-size: 1.3em;
+        font-size: 1.1em;
+        width: 100%;
     }
 
     button[type="reset"] {
-        height: 4em;
-        width: 7em;
-        font-size: 1.4em;
+        height: 2.8em;
+        width: 4em;
+        font-size: 1.15em;
     }
     
     
