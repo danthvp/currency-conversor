@@ -1,4 +1,4 @@
-# currency-conversor
+# currency-converter
 
 Hi! My name is Daniel
 I'm studying Front-End technologies. This is my very first project with JavaScript.
